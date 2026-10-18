@@ -1,0 +1,1351 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "d1c2b3a4-5678-9012-3456-7890abcdef12",
+        "text": {
+          "ops": [
+            {
+              "insert": "Generated Legal Arguments"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "e2d3c4b5-6789-0123-4567-890abcdef123",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Example: Liberty Coal Dismissal Arguments",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@out01": "NUM vs Liberty Coal Management",
+              "@out02": {
+                "type": "Select",
+                "optionId": "high"
+              },
+              "@out03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-02-03"
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "f3e4d5c6-7890-1234-5678-90abcdef1234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "⚖️ Applicant Arguments (Workers/Union)",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4f5e6d7-8901-2345-6789-0abcdef12345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Argument 1: Procedural Unfairness",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "b5a6f7e8-9012-3456-7890-abcdef123456",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Legal Basis:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Section 188(1)(b) LRA; Item 4 Code of Good Practice: Dismissal",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c6b7a8f9-0123-4567-8901-bcdef1234567",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Precedent:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " NUMSA v Macsteel (2019) ZALCJHB 145 — Employer must follow fair procedure even during strikes",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d7c8b9a0-1234-5678-9012-cdef12345678",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Core Argument:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Employer failed to conduct individual disciplinary hearings; dismissed en masse without assessing individual culpability; no opportunity to make representations",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e8d9c0b1-2345-6789-0123-def123456789",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Strength: Strong",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " — Procedural fairness is mandatory; employer burden to prove compliance",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "f9e0d1c2-3456-7890-1234-ef1234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Argument 2: Protected Strike Activity",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "a0f1e2d3-4567-8901-2345-f12345678901",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Legal Basis:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Section 67 LRA (right to strike); Section 5 LRA (no dismissal for protected strike)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b1a2f3e4-5678-9012-3456-a12345678912",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Precedent:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Food & Allied Workers Union v Premier Foods (2010) ZALC 96 — Strike was procedurally protected",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c2b3a4f5-6789-0123-4567-b12345678923",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Core Argument:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Strike complied with Section 64 notice requirements; wage demands are legitimate; dismissal retaliates against constitutional right",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d3c4b5a6-7890-1234-5678-c12345678934",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Strength: Strong",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " — If strike was protected, dismissal is automatically unfair per Section 187(1)(c)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "e4d5c6b7-8901-2345-6789-d12345678945",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "🏢 Respondent Arguments (Employer)",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f5e6d7c8-9012-3456-7890-e12345678956",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Argument 1: Operational Requirements",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "a6f7e8d9-0123-4567-8901-f12345678967",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Legal Basis:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Section 189 LRA (operational requirements dismissal); Section 188(1)(a)(ii)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b7a8f9e0-1234-5678-9012-a12345678978",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Precedent:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Fry's Metals v NUMSA (2003) ZALC 39 — Economic duress may justify retrenchment",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c8b9a0f1-2345-6789-0123-b12345678989",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Core Argument:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Prolonged strike caused financial collapse; mine unviable; consultation conducted; no alternative to dismissals",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d9c0b1a2-3456-7890-1234-c12345678990",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Strength: Moderate",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " — Requires proof of genuine operational need; burden on employer; retrenchment vs dismissal distinction critical",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "e0d1c2b3-4567-8901-2345-d12345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Argument 2: Strike Misconduct",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "f1e2d3c4-5678-9012-3456-e12345678912",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Legal Basis:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " Section 67(5)-(8) LRA (strike limitations); common law dismissal for serious misconduct",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a2f3e4d5-6789-0123-4567-f12345678923",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Precedent:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " SATAWU v Garvas (2012) ZACC 13 — Violence/intimidation removes strike protection",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b3a4f5e6-7890-1234-5678-a12345678934",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Core Argument:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " If workers engaged in violence, intimidation, or property damage, strike loses protection; dismissal justified for misconduct",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c4b5a6f7-8901-2345-6789-b12345678945",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Strength: Fact-Dependent",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " — Requires evidence of individual misconduct; collective punishment difficult to justify",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z"
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV"
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z"
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV"
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z"
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV"
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z"
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV"
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@out01": {
+            "id": "/attributes/@out01",
+            "fieldPath": "/attributes/@out01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@out02": {
+            "id": "/attributes/@out02",
+            "fieldPath": "/attributes/@out02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@out03": {
+            "id": "/attributes/@out03",
+            "fieldPath": "/attributes/@out03",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@out01": {
+        "type": "string",
+        "displayName": "Case Reference"
+      },
+      "@out02": {
+        "type": "Select",
+        "displayName": "Confidence Level",
+        "options": {
+          "high": {
+            "id": "high",
+            "name": "High Confidence",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "medium": {
+            "id": "medium",
+            "name": "Medium Confidence",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "low": {
+            "id": "low",
+            "name": "Low Confidence",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@out03": {
+        "type": "DateTime",
+        "title": "Generated Date"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📃"
+    }
+  }
+}

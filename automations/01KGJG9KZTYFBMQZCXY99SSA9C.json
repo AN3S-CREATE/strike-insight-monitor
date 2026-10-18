@@ -1,0 +1,215 @@
+{
+  "version": "2",
+  "flowTitle": "Dual-Argument Generator",
+  "trigger": {
+    "valid": true,
+    "displayName": "Manual: Analyze Case",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "caseId": {
+            "type": "string",
+            "description": "Input for caseId"
+          },
+          "parties": {
+            "type": "string",
+            "description": "Input for parties"
+          },
+          "legalArea": {
+            "type": "string",
+            "anyOf": [
+              {
+                "const": "labour",
+                "title": "Labour Law"
+              },
+              {
+                "const": "constitutional",
+                "title": "Constitutional"
+              },
+              {
+                "const": "commercial",
+                "title": "Commercial"
+              },
+              {
+                "const": "competition",
+                "title": "Competition"
+              },
+              {
+                "const": "administrative",
+                "title": "Administrative"
+              },
+              {
+                "const": "criminal",
+                "title": "Criminal"
+              }
+            ]
+          },
+          "factPattern": {
+            "type": "string",
+            "description": "Input for factPattern"
+          },
+          "legalQuestion": {
+            "type": "string",
+            "description": "Input for legalQuestion"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-111111111111",
+      "valid": false,
+      "displayName": "Retrieve Relevant Arguments from Library",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "bhsuCVjKq3sKUgoB"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "b2c3d4e5-f678-9012-abcd-222222222222",
+      "valid": true,
+      "displayName": "Search SAFLII Case Law",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "web.search",
+        "input": {
+          "query": "{{ trigger[\"legalQuestion\"] }} site:saflii.org {{ trigger[\"legalArea\"] }}"
+        }
+      }
+    },
+    {
+      "name": "c3d4e5f6-7890-1234-abcd-333333333333",
+      "valid": true,
+      "displayName": "Search Government Gazette",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "web.search",
+        "input": {
+          "query": "{{ trigger[\"legalArea\"] }} regulations South Africa site:gov.za OR site:gpwonline.co.za"
+        }
+      }
+    },
+    {
+      "name": "d4e5f6a7-8901-2345-abcd-444444444444",
+      "valid": true,
+      "displayName": "Generate Applicant Arguments",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "input": "",
+          "prompt": "You are a senior South African legal counsel preparing arguments for the APPLICANT/PLAINTIFF.\n\nCase Context:\n- Parties: {{ trigger[\"parties\"] }}\n- Legal Area: {{ trigger[\"legalArea\"] }}\n- Fact Pattern: {{ trigger[\"factPattern\"] }}\n- Legal Question: {{ trigger[\"legalQuestion\"] }}\n\nLegal Research Available:\n- Argument Library: {{ action[\"a1b2c3d4-e5f6-7890-abcd-111111111111\"] }}\n- SAFLII Case Law: {{ action[\"b2c3d4e5-f678-9012-abcd-222222222222\"][\"summary\"] }}\n- Gazette/Regulations: {{ action[\"c3d4e5f6-7890-1234-abcd-333333333333\"][\"summary\"] }}\n\nGenerate 2-3 STRONG arguments for the applicant/plaintiff. For each argument:\n\n1. **Legal Basis**: Cite specific sections of relevant Acts\n2. **Precedent**: Reference SAFLII cases with [Year] ZACC/ZALC/ZACT format\n3. **Core Argument**: Clear, persuasive reasoning\n4. **Strength Assessment**: Rate as Strong/Moderate/Weak with brief justification\n\nRequirements:\n- Board-safe, court-safe language\n- No outcome predictions\n- Cite real South African law only\n- Flag constitutional issues if present\n- Note POPIA/rights considerations if relevant\n\nFormat as structured markdown with clear headings."
+        }
+      }
+    },
+    {
+      "name": "e5f6a7b8-9012-3456-abcd-555555555555",
+      "valid": true,
+      "displayName": "Generate Respondent Arguments",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "input": "",
+          "prompt": "You are a senior South African legal counsel preparing arguments for the RESPONDENT/DEFENDANT.\n\nCase Context:\n- Parties: {{ trigger[\"parties\"] }}\n- Legal Area: {{ trigger[\"legalArea\"] }}\n- Fact Pattern: {{ trigger[\"factPattern\"] }}\n- Legal Question: {{ trigger[\"legalQuestion\"] }}\n\nLegal Research Available:\n- Argument Library: {{ action[\"a1b2c3d4-e5f6-7890-abcd-111111111111\"] }}\n- SAFLII Case Law: {{ action[\"b2c3d4e5-f678-9012-abcd-222222222222\"][\"summary\"] }}\n- Gazette/Regulations: {{ action[\"c3d4e5f6-7890-1234-abcd-333333333333\"][\"summary\"] }}\n\nGenerate 2-3 STRONG arguments for the respondent/defendant. For each argument:\n\n1. **Legal Basis**: Cite specific sections of relevant Acts\n2. **Precedent**: Reference SAFLII cases with [Year] ZACC/ZALC/ZACT format\n3. **Core Argument**: Clear, persuasive reasoning\n4. **Strength Assessment**: Rate as Strong/Moderate/Weak with brief justification\n\nRequirements:\n- Board-safe, court-safe language\n- No outcome predictions\n- Cite real South African law only\n- Consider limitation defenses (Section 36 if constitutional)\n- Note efficiency/business justification if applicable\n\nFormat as structured markdown with clear headings."
+        }
+      }
+    },
+    {
+      "name": "f6a7b8c9-0123-4567-abcd-666666666666",
+      "valid": false,
+      "displayName": "Create Argument Output Document",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "# Legal Analysis: {{ trigger[\"parties\"] }}\n\n**Case Reference**: {{ trigger[\"caseId\"] }}\n**Legal Area**: {{ trigger[\"legalArea\"] }}\n**Question**: {{ trigger[\"legalQuestion\"] }}\n\n---\n\n## ⚖️ Applicant/Plaintiff Arguments\n\n{{ d4e5f6a7-8901-2345-abcd-444444444444[\"result\"] }}\n\n---\n\n## 🏢 Respondent/Defendant Arguments\n\n{{ e5f6a7b8-9012-3456-abcd-555555555555[\"result\"] }}\n\n---\n\n## 📚 Sources Consulted\n\n- **SAFLII Case Law**: Analyzed recent constitutional, labour, and competition law precedents\n- **Government Gazette**: Reviewed relevant regulations and amendments\n- **Argument Library**: Cross-referenced {{ trigger[\"legalArea\"] }} precedents\n\n---\n\n**⚠️ Disclaimer**: This analysis presents legal arguments for both sides. It does not predict outcomes, provide legal advice, or recommend a course of action. Consult qualified legal counsel before making decisions.",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "vKPFVje65yRrbQne"
+          }
+        }
+      }
+    },
+    {
+      "name": "a7b8c9d0-1234-5678-abcd-777777777777",
+      "valid": false,
+      "displayName": "Update Case Queue Status",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "updateCustomFields",
+        "input": {
+          "fields": {
+            "@cas01": {
+              "data": {
+                "value": "completed"
+              },
+              "rank": "0",
+              "fieldId": "@cas01"
+            },
+            "@cas05": {
+              "data": {
+                "value": "https://www.taskade.com/d/vKPFVje65yRrbQne"
+              },
+              "rank": "1",
+              "fieldId": "@cas05"
+            }
+          },
+          "nodeId": "{{ trigger[\"caseId\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "D6QdvoGtnbriFoum"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "bhsuCVjKq3sKUgoB": {
+      "id": "bhsuCVjKq3sKUgoB",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "vKPFVje65yRrbQne": {
+      "id": "vKPFVje65yRrbQne",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "D6QdvoGtnbriFoum": {
+      "id": "D6QdvoGtnbriFoum",
+      "rank": "s",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

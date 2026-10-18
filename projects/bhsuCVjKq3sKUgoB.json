@@ -1,0 +1,1154 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "b1a2c3d4-e5f6-7890-1234-567890abcdef",
+        "text": {
+          "ops": [
+            {
+              "insert": "Legal Argument Library"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "c2b3d4e5-f678-9012-3456-7890abcdef12",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Labour Law Arguments",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d3c4e5f6-7890-1234-5678-90abcdef1234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Unfair dismissal - substantive fairness",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "labour"
+                  },
+                  "@arg02": "Sidumo v Rustenburg Platinum Mines Ltd (2007) ZACC 22",
+                  "@arg03": "Section 188 of Labour Relations Act 66 of 1995",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "applicant"
+                  },
+                  "@arg05": "Employer must prove misconduct on balance of probabilities; arbitrator reviews reasonableness of sanction",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "strong"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e4d5f6a7-8901-2345-6789-0abcdef12345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Unfair dismissal - procedural fairness (employer defense)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "labour"
+                  },
+                  "@arg02": "SA Commercial Catering & Allied Workers Union v Irvin & Johnson (1999) ZALAC 27",
+                  "@arg03": "Section 188 LRA; Item 4 of Code of Good Practice: Dismissal",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "respondent"
+                  },
+                  "@arg05": "Proper disciplinary hearing conducted; employee given opportunity to state case; progressive discipline applied",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "strong"
+                  }
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f5e6a7b8-9012-3456-7890-abcdef123456",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Constitutional Arguments",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a6f7b8c9-0123-4567-8901-bcdef1234567",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Section 9 equality violation claim",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "constitutional"
+                  },
+                  "@arg02": "Harksen v Lane NO (1997) ZACC 12",
+                  "@arg03": "Section 9 of Constitution Act 108 of 1996",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "applicant"
+                  },
+                  "@arg05": "Differentiation based on listed/analogous ground; rational connection test failed; unfair discrimination",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "strong"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b7a8c9d0-1234-5678-9012-cdef12345678",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Section 36 limitation justification",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "constitutional"
+                  },
+                  "@arg02": "S v Makwanyane (1995) ZACC 3",
+                  "@arg03": "Section 36 of Constitution (Limitation Clause)",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "respondent"
+                  },
+                  "@arg05": "Limitation reasonable and justifiable; proportionality test satisfied; public interest outweighs rights infringement",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "moderate"
+                  }
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c8b9d0e1-2345-6789-0123-def123456789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Competition Law Arguments",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d9c0e1f2-3456-7890-1234-ef1234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Abuse of dominance claim",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "competition"
+                  },
+                  "@arg02": "Competition Commission v Sasol Chemical Industries (2014) ZACT 66",
+                  "@arg03": "Section 8 of Competition Act 89 of 1998",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "applicant"
+                  },
+                  "@arg05": "Dominant firm; excessive pricing; exclusionary conduct; anti-competitive effects demonstrated",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "moderate"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e0d1f2a3-4567-8901-2345-f12345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Market efficiency defense",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@arg01": {
+                    "type": "Select",
+                    "optionId": "competition"
+                  },
+                  "@arg02": "Nationwide Airlines v SAA (2006) ZACT 96",
+                  "@arg03": "Section 8(4) Competition Act (efficiency defense)",
+                  "@arg04": {
+                    "type": "Select",
+                    "optionId": "respondent"
+                  },
+                  "@arg05": "Conduct driven by efficiency gains; benefits consumers; technological/economic advancement; no less restrictive means",
+                  "@arg06": {
+                    "type": "Select",
+                    "optionId": "strong"
+                  }
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z"
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV"
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk"
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs"
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw"
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z"
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV"
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk"
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs"
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw"
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z"
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV"
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk"
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs"
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw"
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z"
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV"
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk"
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs"
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw"
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@arg01": {
+            "id": "/attributes/@arg01",
+            "fieldPath": "/attributes/@arg01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@arg02": {
+            "id": "/attributes/@arg02",
+            "fieldPath": "/attributes/@arg02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@arg03": {
+            "id": "/attributes/@arg03",
+            "fieldPath": "/attributes/@arg03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@arg04": {
+            "id": "/attributes/@arg04",
+            "fieldPath": "/attributes/@arg04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@arg05": {
+            "id": "/attributes/@arg05",
+            "fieldPath": "/attributes/@arg05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@arg06": {
+            "id": "/attributes/@arg06",
+            "fieldPath": "/attributes/@arg06",
+            "rank": "zy",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@arg01": {
+        "type": "Select",
+        "displayName": "Legal Area",
+        "options": {
+          "labour": {
+            "id": "labour",
+            "name": "Labour Law",
+            "color": "#3b82f6",
+            "rank": "0"
+          },
+          "constitutional": {
+            "id": "constitutional",
+            "name": "Constitutional",
+            "color": "#8b5cf6",
+            "rank": "1"
+          },
+          "commercial": {
+            "id": "commercial",
+            "name": "Commercial",
+            "color": "#10b981",
+            "rank": "2"
+          },
+          "competition": {
+            "id": "competition",
+            "name": "Competition",
+            "color": "#f59e0b",
+            "rank": "3"
+          },
+          "administrative": {
+            "id": "administrative",
+            "name": "Administrative",
+            "color": "#ec4899",
+            "rank": "4"
+          },
+          "criminal": {
+            "id": "criminal",
+            "name": "Criminal",
+            "color": "#ef4444",
+            "rank": "5"
+          }
+        }
+      },
+      "@arg02": {
+        "type": "string",
+        "displayName": "SAFLII Case Citation"
+      },
+      "@arg03": {
+        "type": "string",
+        "displayName": "Statutory Basis"
+      },
+      "@arg04": {
+        "type": "Select",
+        "displayName": "Argument Side",
+        "options": {
+          "applicant": {
+            "id": "applicant",
+            "name": "Applicant/Plaintiff",
+            "color": "#3b82f6",
+            "rank": "0"
+          },
+          "respondent": {
+            "id": "respondent",
+            "name": "Respondent/Defendant",
+            "color": "#ec4899",
+            "rank": "1"
+          }
+        }
+      },
+      "@arg05": {
+        "type": "string",
+        "displayName": "Core Legal Principle"
+      },
+      "@arg06": {
+        "type": "Select",
+        "displayName": "Strength",
+        "options": {
+          "strong": {
+            "id": "strong",
+            "name": "Strong",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "moderate": {
+            "id": "moderate",
+            "name": "Moderate",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "weak": {
+            "id": "weak",
+            "name": "Weak/Risky",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🎤"
+    }
+  }
+}

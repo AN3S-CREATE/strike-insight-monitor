@@ -1,0 +1,1671 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "Strike Intelligence Database"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "e3f4a5b6-3456-1234-4567-890123456789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "High Court drama - Liberty seeks urgent interdict (BREAKING)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@src01": "Citizen - Middelburg Observer",
+              "@url01": "https://www.citizen.co.za/middelburg-observer/news/2026/02/03/watch-drama-at-high-court-where-liberty-coal-seeks-urgent-interdict-against-optimum-protests/",
+              "@time1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-02-03"
+                }
+              },
+              "@sent1": {
+                "type": "Select",
+                "optionId": "opt-neg"
+              },
+              "@tpc01": {
+                "type": "Select",
+                "optionId": "opt-crt"
+              },
+              "@sum01": "Hundreds of protesters gathered outside Middelburg High Court as Liberty Coal seeks interdict. Community opposes exclusion from Optimum turnaround strategy. EFF and ANC support protesters. Municipal Manager Mandla Mnguni served with papers."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f4a5b6c7-4567-2345-5678-901234567890",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Liberty Coal applies for interim interdict - armed protesters alleged",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@src01": "Daily Sun",
+              "@url01": "https://www.snl24.com/dailysun/news/gupta-mine-fights-armed-men-20260130",
+              "@time1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-01-30"
+                }
+              },
+              "@sent1": {
+                "type": "Select",
+                "optionId": "opt-neg"
+              },
+              "@tpc01": {
+                "type": "Select",
+                "optionId": "opt-crt"
+              },
+              "@sum01": "Liberty Coal filed urgent application seeking interdict. Company alleges protesters brandished high-calibre semi-automatic weapons and wore balaclavas. Claims armed intimidation and unlawful blockade of operations. Director Ulrich Bester states judicial intervention is only remedy."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a5b6c7d8-5678-3456-6789-012345678901",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Mining dispute exposes political fault lines in Mpumalanga",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@src01": "Sunday World",
+              "@url01": "https://sundayworld.co.za/politics/mining-dispute-exposes-fault-lines-in-mpumalanga-power-politics/",
+              "@time1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-01-28"
+                }
+              },
+              "@sent1": {
+                "type": "Select",
+                "optionId": "opt-neu"
+              },
+              "@tpc01": {
+                "type": "Select",
+                "optionId": "opt-pol"
+              },
+              "@sum01": "Police accused of standing by while armed protesters blocked access. Four separate gathering notices submitted between Dec 2025 and Jan 2026. Municipal councillors allegedly attended gatherings. Liberty warns constitutional right to assemble being used for unlawful conduct."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6c7d8e9-6789-4567-789a-123456789012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Community accuses Liberty of dissolving stakeholder forum",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@src01": "Highveld Chronicle",
+              "@url01": "https://hconline.co.za/community-members-accuse-liberty-coal-of-unilaterally-dissolving-community-led-forum/",
+              "@time1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-01-24"
+                }
+              },
+              "@sent1": {
+                "type": "Select",
+                "optionId": "opt-neg"
+              },
+              "@tpc01": {
+                "type": "Select",
+                "optionId": "opt-cmt"
+              },
+              "@sum01": "Steve Tshwete Community Forum says Liberty dissolved stakeholder engagement forum without consultation. Community march held Jan 13 in Pullenshope. Forum demands involvement in decisions about employment, business, skills development. Liberty appointed LMS as contractor without consulting community."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "28ee5344-d18d-4571-bce6-af99f72f2510",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Update: - "
+                },
+                {
+                  "insert": "Breaking news / major developments",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ea0f8364-5568-49f9-98f9-e7d8341c6406",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Community members from Middelburg and Hendrina have reportedly "
+                },
+                {
+                  "insert": "shut down operations at Richards Bay Coal Terminal (RBCT)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": " in solidarity with / escalation of the Middelburg/Hendrina coal protests (Source 5 – Mpumalanga Action Movement on X). This appears to extend the protest beyond the local mine area to a national export chokepoint."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cf7880ac-0eba-4017-8a3d-f1bc6ae722e6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Armed confrontations reported at the Liberty/“Gupta” mine",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": " near Middelburg, with the company seeking legal protection against community protest action (Source 1 – Daily Sun)."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ff6dc9cf-61fe-404c-af99-d4882619c191",
+            "text": {
+              "ops": [
+                {
+                  "insert": "New statements from stakeholders",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "91fdb13c-2d0e-43a0-a88b-8fdd60fa3590",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Liberty Coal",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " has "
+                    },
+                    {
+                      "insert": "applied for an interim interdict",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " to stop community protest action at its premises, indicating a firm legal stance against on-site demonstrations (Source 1)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5e182beb-c8af-40e2-a114-fe64668e622c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Mpumalanga Action Movement",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " claims responsibility/leadership for mobilising Middelburg and Hendrina community members to RBCT, framing the shutdown as part of the broader coal struggle (Source 5)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd0e4875-d622-4bbb-a585-70571fb6f35e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Construction, Energy and Engineering Workers Union (CEEWU)",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " states that its members have "
+                    },
+                    {
+                      "insert": "initiated a strike at Atlantis Coal Mine in Middelburg",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ", signalling union-backed industrial action rather than only community protest (Source 8)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1919487a-f789-4ba0-be70-a1990e4bd0d7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "A former “Gupta lieutenant” (George van der Merwe) is reported to have "
+                    },
+                    {
+                      "insert": "allegedly threatened Liberty Coal bosses",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ", with criminal charges mentioned, adding a personal-security and intimidation dimension to the dispute (Source 4)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "2d0d4bdf-6d75-4c06-92a9-8f365faed988",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Court / legal updates",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "886b2d7b-9c2e-41ef-b41c-9f51f1d1bf23",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Middelburg High Court",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ": Liberty Coal is actively "
+                    },
+                    {
+                      "insert": "seeking relief (interdict) against demonstrations",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " over alleged community exclusion (Source 3 – Middelburg Observer/Citizen). Protesters gathered outside the court during this application."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "07bf2df6-16cb-4c6f-8c42-b31258ae4a56",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "The "
+                    },
+                    {
+                      "insert": "interim interdict application",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " described in Daily Sun (Source 1) aligns with/updates what we know: Liberty Coal is moving to "
+                    },
+                    {
+                      "insert": "legally restrain protests at the mine",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ". No final ruling is reported yet in these snippets; status appears to be "
+                    },
+                    {
+                      "insert": "application and hearing in progress",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ", with protests continuing around the court."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "843d1b2d-0fad-434c-853a-6c47e1091d94",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Changes in protest/strike activity",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "eaa46a7f-7316-4acb-a84b-c8c0f9bc5f58",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Geographic escalation",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "042532b0-f8e1-4314-9b9c-ad434b7cf1af",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Protests have expanded "
+                        },
+                        {
+                          "insert": "from the Middelburg/Hendrina mine area to Richards Bay Coal Terminal",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ", a critical export hub (Source 5)."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "43083838-29bc-4af4-b3dd-0b5dafa89c07",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Industrial action broadening",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "51601b6d-b9f1-4b55-be4c-8364532fdabe",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A new, explicit "
+                        },
+                        {
+                          "insert": "union-led strike",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " has begun at "
+                        },
+                        {
+                          "insert": "Atlantis Coal Mine in Middelburg",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " (Source 8), moving beyond community-only protest into organised labour action."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "9e73b00f-1406-406c-b4d0-c7b838c6b31d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "On-the-ground tension",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "63f3ec37-09c5-41ae-a30a-5034fc126309",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Reports of "
+                        },
+                        {
+                          "insert": "armed men and security confrontations",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " at/around the Liberty (“Gupta”) mine (Source 1) suggest increased risk and a more volatile protest environment."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "6f7edbba-6773-453b-9f58-b0555c8d88f2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Court-side mobilisation",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "bf41f40d-da01-49cf-9b19-54e38f4fbff1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Protesters are now also "
+                        },
+                        {
+                          "insert": "gathering at the Middelburg High Court",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " during Liberty Coal’s interdict proceedings (Source 3), shifting part of the protest focus to the legal arena."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a2b6b15e-7221-481f-a8ef-bd8c436d0670",
+            "text": {
+              "ops": [
+                {
+                  "insert": "If you want, I can next map these developments against a timeline of the Middelburg strike to show how the conflict is escalating."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z"
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV"
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk"
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs"
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw"
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z"
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV"
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk"
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs"
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw"
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z"
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV"
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk"
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs"
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw"
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z"
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV"
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk"
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs"
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw"
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@src01": {
+            "id": "/attributes/@src01",
+            "fieldPath": "/attributes/@src01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@url01": {
+            "id": "/attributes/@url01",
+            "fieldPath": "/attributes/@url01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@time1": {
+            "id": "/attributes/@time1",
+            "fieldPath": "/attributes/@time1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sent1": {
+            "id": "/attributes/@sent1",
+            "fieldPath": "/attributes/@sent1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@tpc01": {
+            "id": "/attributes/@tpc01",
+            "fieldPath": "/attributes/@tpc01",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sum01": {
+            "id": "/attributes/@sum01",
+            "fieldPath": "/attributes/@sum01",
+            "rank": "zy",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@src01": {
+        "type": "string",
+        "displayName": "Source"
+      },
+      "@url01": {
+        "type": "string",
+        "displayName": "URL"
+      },
+      "@time1": {
+        "type": "DateTime",
+        "title": "Timestamp"
+      },
+      "@sent1": {
+        "type": "Select",
+        "displayName": "Sentiment",
+        "options": {
+          "opt-pos": {
+            "id": "opt-pos",
+            "name": "Positive",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "opt-neu": {
+            "id": "opt-neu",
+            "name": "Neutral",
+            "color": "#94a3b8",
+            "rank": "1"
+          },
+          "opt-neg": {
+            "id": "opt-neg",
+            "name": "Negative",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@tpc01": {
+        "type": "Select",
+        "displayName": "Topic",
+        "options": {
+          "opt-prt": {
+            "id": "opt-prt",
+            "name": "Protest Action",
+            "color": "#f59e0b",
+            "rank": "0"
+          },
+          "opt-crt": {
+            "id": "opt-crt",
+            "name": "Court Proceedings",
+            "color": "#3b82f6",
+            "rank": "1"
+          },
+          "opt-cmt": {
+            "id": "opt-cmt",
+            "name": "Community Demands",
+            "color": "#8b5cf6",
+            "rank": "2"
+          },
+          "opt-cmp": {
+            "id": "opt-cmp",
+            "name": "Company Response",
+            "color": "#ec4899",
+            "rank": "3"
+          },
+          "opt-pol": {
+            "id": "opt-pol",
+            "name": "Political Involvement",
+            "color": "#06b6d4",
+            "rank": "4"
+          }
+        }
+      },
+      "@sum01": {
+        "type": "string",
+        "displayName": "Summary"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🏗️"
+    }
+  }
+}
